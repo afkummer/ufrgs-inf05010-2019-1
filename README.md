@@ -21,7 +21,7 @@ This repository contains supplementary data used in INF05010 course for the 2019
 
 __Note :__ Instances mirrored from [Web of Instances](http://www.webofinstances.com/index.php?option=com_fabrik&c=form&view=details&Itemid=62&fabrik=18&rowid=1&tableid=16&fabrik_cursor=0&lang=en).
 
-__Note 2:__ Best known solutions are presented in supplementary material from [Vallada, Ruiz Framinan (2015)](https://www.sciencedirect.com/science/article/pii/S0377221714005992).
+__Note 2:__ Best known solutions are presented in supplementary material from [Vallada, Ruiz e Framinan (2015)](https://www.sciencedirect.com/science/article/pii/S0377221714005992).
 
 __Note 3:__ A mathematical formulation of the problem can be found in [Tseng et al. (2004)](https://www.sciencedirect.com/science/article/pii/S030504830300152X).
 

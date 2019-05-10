@@ -1,6 +1,6 @@
 # INF05010 - Combinatorial Optimization
 
-This repository contains supplementary data used on INF05010 course on the class of first semester of 2019/1.
+This repository contains supplementary data used in INF05010 course for the 2019/1. A presentation of problems and their mathematical formulation can be found [here](problems-presentation.pdf) (in portuguese). A more complete specification of the project is available [here](project-specs.pdf) (in portuguese). Further information can be found in [Moodle platform](https://moodle.inf.ufrgs.br/course/view.php?id=255).
 
 ## Optimization project
 
@@ -21,6 +21,10 @@ This repository contains supplementary data used on INF05010 course on the class
 
 __Note :__ Instances mirrored from [Web of Instances](http://www.webofinstances.com/index.php?option=com_fabrik&c=form&view=details&Itemid=62&fabrik=18&rowid=1&tableid=16&fabrik_cursor=0&lang=en).
 
+__Note 2:__ Best known solutions are presented in supplementary material from [Vallada, Ruiz Framinan (2015)](https://www.sciencedirect.com/science/article/pii/S0377221714005992).
+
+__Note 3:__ A mathematical formulation of the problem can be found in [Tseng et al. (2004)](https://www.sciencedirect.com/science/article/pii/S030504830300152X).
+
 
 ### Instances for PMSP
 
@@ -37,7 +41,11 @@ __Note :__ Instances mirrored from [Web of Instances](http://www.webofinstances.
 |[120on12Rp50Rs50_1](instances/pmsp/120on12Rp50Rs50_1.dat) | 120 | 12  |   1087.80 ± 32.26 |
 |[120on10Rp50Rs50_1](instances/pmsp/120on10Rp50Rs50_1.dat) | 120 | 10  |   1326.80 ± 13.46 |
 
-__Not :__ Instances mirrored from [Scheduling Research Virtual Center](https://sites.wp.odu.edu/schedulingresearch/paper).
+__Note :__ Instances mirrored from [Scheduling Research Virtual Center](https://sites.wp.odu.edu/schedulingresearch/paper).
+
+__Note 2:__ Best known solutions are presented in [Ezugwu (2019)](https://www.sciencedirect.com/science/article/pii/S0950705119300504).
+
+__Note 3:__ A mathematical formulation of the problem can be found in [Ezugwu (2019)](https://www.sciencedirect.com/science/article/pii/S0950705119300504).
 
 
 ### Instances for TSPDL
@@ -57,6 +65,7 @@ __Not :__ Instances mirrored from [Scheduling Research Virtual Center](https://s
 
 __Note :__ Instances mirrored from [The TSPDL Lib](http://tspdl.jgr.no/).
 
+__Note 2:__ Best known solutions are presented in [Todosijević et al. (2017)](https://link.springer.com/article/10.1007/s11590-014-0788-9).
 
-
+__Note 3:__ A mathematical formulation of the problem can be found in [Rakke et al. (2012)](https://www.sciencedirect.com/science/article/pii/S0305048317300518).
 

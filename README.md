@@ -1,3 +1,4 @@
+
 # INF05010 - Combinatorial Optimization
 
 This repository contains supplementary data used in INF05010 course for the 2019/1. A presentation of problems and their mathematical formulation can be found [here](problems-presentation.pdf) (in portuguese). A more complete specification of the project is available [here](project-specs.pdf) (in portuguese). Further information can be found in [Moodle platform](https://moodle.inf.ufrgs.br/course/view.php?id=255).
@@ -5,6 +6,8 @@ This repository contains supplementary data used in INF05010 course for the 2019
 ## Optimization project
 
 ### Instances for PFSP
+
+Instance names are formatted as follows: for ``VFR60_10_3_Gap``, ``60`` refers to the number of tasks, ``5`` refers to the number of machines, ``3`` refers to instance id within ``60_10`` family.
 
 | Instance | \|_N_\| | \|_M_\| | BKS|
 |----------|-------:|---------:|------:|
@@ -28,6 +31,8 @@ __Note 3:__ A mathematical formulation of the problem can be found in [Tseng et 
 
 ### Instances for PMSP
 
+Instance names are similar to PFSP: for ``20on4Rp50Rs50_1``, ``20`` refers to the number of tasks, ``4`` refers to the number of machines, ``1`` refers to instance id within ``20_4`` family. Other components of instance name describe parameters used on instance generation. Those information can be ignored.
+
 | Instance | \|_N_\| | \|_M_\| | BKS|
 |----------|-------:|---------:|------:|
 |[20on4Rp50Rs50_1  ](instances/pmsp/20on4Rp50Rs50_1.dat) | 20  | 4   |  527.80   ± 15.43   |
@@ -49,6 +54,8 @@ __Note 3:__ A mathematical formulation of the problem can be found in [Ezugwu (2
 
 
 ### Instances for TSPDL
+
+TSPDL instances are adaptations from classic datasets for TSP. Instance names use the following convention: for ``bayg29_10_1``, ``bayg`` indicates the dataset to which the instance belongs, and``29`` indicates the number of vertices. The other informations can be ignored.
 
 | Instance | BKS (avg) |
 |:---------|----------:|

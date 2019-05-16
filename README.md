@@ -82,6 +82,6 @@ __Note 3:__ A mathematical formulation of the problem can be found in [Rakke et 
 
 ### Access to ILOG CPLEX optimization suite
 
-Students and other academic members of Institute of Informatics can request a copy of the proprietary solver CPLEX, under __strictly academic conditions__. The software can be downloaded from through [OnTheHub](https://inf-ufrgs.onthehub.com/WebStore/Welcome.aspx) website.
+Students and other academic members of Institute of Informatics can request a copy of the proprietary solver CPLEX, under __strictly academic conditions__. The software can be downloaded from through [OnTheHub](https://inf-ufrgs.onthehub.com/WebStore/Welcome.aspx) website. To request credentials to the OnTheHub, contact Library Chief Beatriz Haro.
 
 

@@ -8,6 +8,7 @@ This repository contains supplementary data used in INF05010 course for the 2019
 ### Instances for PFSP
 
 Instance names are formatted as follows: for ``VFR60_10_3_Gap``, ``60`` refers to the number of tasks, ``5`` refers to the number of machines, ``3`` refers to instance id within ``60_10`` family.
+The format of files is described in last paragraph of Section 3.1 of [Vallada et al. (2015)](https://www.sciencedirect.com/science/article/pii/S0377221714005992).
 
 | Instance | \|_N_\| | \|_M_\| | BKS|
 |----------|-------:|---------:|------:|

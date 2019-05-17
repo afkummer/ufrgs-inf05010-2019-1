@@ -8,6 +8,7 @@ This repository contains supplementary data used in INF05010 course for the 2019
 ### Instances for PFSP
 
 Instance names are formatted as follows: for ``VFR60_10_3_Gap``, ``60`` refers to the number of tasks, ``5`` refers to the number of machines, ``3`` refers to instance id within ``60_10`` family.
+The format of files is described in last paragraph of Section 3.1 of [Vallada et al. (2015)](https://www.sciencedirect.com/science/article/pii/S0377221714005992).
 
 | Instance | \|_N_\| | \|_M_\| | BKS|
 |----------|-------:|---------:|------:|
@@ -32,6 +33,7 @@ __Note 3:__ A mathematical formulation of the problem can be found in [Tseng et 
 ### Instances for PMSP
 
 Instance names are similar to PFSP: for ``20on4Rp50Rs50_1``, ``20`` refers to the number of tasks, ``4`` refers to the number of machines, ``1`` refers to instance id within ``20_4`` family. Other components of instance name describe parameters used on instance generation. Those information can be ignored.
+The third paragraph of Section 4 of [Ezugwu (2019)](https://www.sciencedirect.com/science/article/pii/S0950705119300504) gives a short description of instance file format.
 
 | Instance | \|_N_\| | \|_M_\| | BKS|
 |----------|-------:|---------:|------:|
@@ -56,6 +58,8 @@ __Note 3:__ A mathematical formulation of the problem can be found in [Ezugwu (2
 ### Instances for TSPDL
 
 TSPDL instances are adaptations from classic datasets for TSP. Instance names use the following convention: for ``bayg29_10_1``, ``bayg`` indicates the dataset to which the instance belongs, and``29`` indicates the number of vertices. The other informations can be ignored.
+Instance format for ``bayg``, ``gr``, and ``ulysses`` is structured and self explanatory. 
+For ``KroA`` and ``pcb`` families, check the paper of [Reinelt (1991)](http://dx.doi.org/10.1287/ijoc.3.4.376).
 
 | Instance | BKS (avg) |
 |:---------|----------:|
@@ -68,11 +72,16 @@ TSPDL instances are adaptations from classic datasets for TSP. Instance names us
 |[KroA200_75_1   ](instances/tspdl/KroA200_75_1.dat)  |  30896.10   |
 |[pcb442_50_1    ](instances/tspdl/pcb442_50_1.dat)  |  59858.30    |
 |[pcb442_75_1    ](instances/tspdl/pcb442_75_1.dat)  |  61010.10    |
-|[Ulysse_22_50_1 ](instances/tspdl/ulysses22_50_1.dat)  |  8425.60  |
+|[Ulysses_22_50_1 ](instances/tspdl/ulysses22_50_1.dat)  |  8425.60  |
 
 __Note :__ Instances mirrored from [The TSPDL Lib](http://tspdl.jgr.no/).
 
 __Note 2:__ Best known solutions are presented in [Todosijević et al. (2017)](https://link.springer.com/article/10.1007/s11590-014-0788-9).
 
 __Note 3:__ A mathematical formulation of the problem can be found in [Rakke et al. (2012)](https://www.sciencedirect.com/science/article/pii/S0305048317300518).
+
+### Access to ILOG CPLEX optimization suite
+
+Students and other academic members of Institute of Informatics can request a copy of the proprietary solver CPLEX, under __strictly academic conditions__. The software can be downloaded from through [OnTheHub](https://inf-ufrgs.onthehub.com/WebStore/Welcome.aspx) website. To request credentials to the OnTheHub, contact Library Chief Beatriz Haro.
+
 

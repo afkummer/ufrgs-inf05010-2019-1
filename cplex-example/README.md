@@ -111,7 +111,7 @@ CPLEX> quit
 $
 ```
 
-To save a copy of entire solution of the problem, use the command ``write ``. 
+To save a copy of entire solution of the problem, use the command ``write``. 
 This command receives a output file name, which must have the extension ``.sol``.
 This extension tell to CPLEX to store the solution of the problem into the 
 output file.

@@ -1,0 +1,36 @@
+set T := A B C;
+
+
+set V := 
+   (Pel,Poa)
+   (Pel,Tor)
+   (Poa,Tor);
+
+
+param custo := 
+   Pel Poa A 600
+   Pel Poa B 440
+   Pel Poa C 200
+   Pel Tor A 720
+   Pel Tor B 560
+   Pel Tor C 280
+   Poa Tor A 320
+   Poa Tor B 260
+   Poa Tor C 160;
+
+param maxBilhetes := 
+   Pel Poa A 4
+   Pel Poa B 8
+   Pel Poa C 22
+   Pel Tor A 3
+   Pel Tor B 10
+   Pel Tor C 18
+   Poa Tor A 8
+   Poa Tor B 13
+   Poa Tor C 20;
+
+
+param capAero := 30;
+
+end;
+

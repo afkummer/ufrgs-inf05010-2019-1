@@ -28,7 +28,7 @@ protected:
    std::vector <std::vector <std::vector <int>>> m_setupTimes; // [pred job][succ job][machine]
 };
 
-PmspInstance::PmspInstance(const char* fname) {
+PmspInstance::PmspInstance(const char* fname): m_name(fname) {
    std::ifstream fid(fname);
    if (!fid) {
       std::cout << "Instance file could not be open to read.\n";

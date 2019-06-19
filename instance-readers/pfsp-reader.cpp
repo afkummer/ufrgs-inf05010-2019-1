@@ -30,16 +30,16 @@ PfspInstance::PfspInstance(const char *fname): m_name(fname) {
       std::abort();
    }
 
-   fid >> m_numMachines >> m_numJobs;
+   fid >> m_numJobs >> m_numMachines;
    m_procTimes.resize(m_numMachines);
    for (auto &i: m_procTimes)
       i.resize(m_numJobs, std::numeric_limits<int>::max());
 
-   for (int i = 0; i < m_numMachines; ++i) {
-      for (int j = 0; j < m_numJobs; ++j) {
-         int jobId, proc;
-         fid >> jobId >> proc;
-         m_procTimes[i][jobId] = proc;
+   for (int i = 0; i < m_numJobs; ++i) {
+      for (int j = 0; j < m_numMachines; ++j) {
+         int procId, proc;
+         fid >> procId >> proc;
+         m_procTimes[procId][i] = proc;
       }
    }
 }
@@ -87,7 +87,6 @@ int main(int argc, char **argv) {
    }
 
    PfspInstance inst(argv[1]);
-   inst.writeFile("/tmp/pfsp.txt");
 
    return EXIT_SUCCESS;
 }

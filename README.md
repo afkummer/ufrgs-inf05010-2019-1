@@ -58,27 +58,29 @@ __Note 3:__ A mathematical formulation of the problem can be found in [Ezugwu (2
 ### Instances for TSPDL
 
 TSPDL instances are adaptations from classic datasets for TSP. Instance names use the following convention: for ``bayg29_10_1``, ``bayg`` indicates the dataset to which the instance belongs, and``29`` indicates the number of vertices. The other informations can be ignored.
-Instance format for ``bayg``, ``gr``, and ``ulysses`` is structured and self explanatory. 
+Instance format for ``bayg``, ``gr``, and ``ulysses`` is structured and self explanatory.
 For ``KroA`` and ``pcb`` families, check the paper of [Reinelt (1991)](http://dx.doi.org/10.1287/ijoc.3.4.376).
 
-| Instance | BKS (avg) |
-|:---------|----------:|
-|[bayg29_10_1    ](instances/tspdl/bayg29_10_1.dat)  |  1713.60     |
-|[bayg29_50_1    ](instances/tspdl/bayg29_50_1.dat)  |  2091.00     |
-|[gr17_25_1      ](instances/tspdl/gr17_25_1.dat)  |  2237.70       |
-|[gr48_10_1      ](instances/tspdl/gr48_10_1.dat)  |  6635.70       |
-|[gr48_25_1      ](instances/tspdl/gr48_25_1.dat)  |  5800.30       |
-|[KroA200_50_1   ](instances/tspdl/KroA200_50_1.dat)  |  30665.20   |
-|[KroA200_75_1   ](instances/tspdl/KroA200_75_1.dat)  |  30896.10   |
-|[pcb442_50_1    ](instances/tspdl/pcb442_50_1.dat)  |  59858.30    |
-|[pcb442_75_1    ](instances/tspdl/pcb442_75_1.dat)  |  61010.10    |
-|[Ulysses_22_50_1 ](instances/tspdl/ulysses22_50_1.dat)  |  8425.60  |
+| Instance | BKS (avg) | BKS (instance)|
+|:---------|----------:|-----:|
+|[bayg29_10_1    ](instances/tspdl/bayg29_10_1.dat)  |  1713.60     |  1610    |
+|[bayg29_50_1    ](instances/tspdl/bayg29_50_1.dat)  |  2091.00     |  2743    |
+|[gr17_25_1      ](instances/tspdl/gr17_25_1.dat)  |  2237.70       |  2265    |
+|[gr48_10_1      ](instances/tspdl/gr48_10_1.dat)  |  6635.70       |  5046    |
+|[gr48_25_1      ](instances/tspdl/gr48_25_1.dat)  |  5800.30       |  5161.65 |
+|[KroA200_50_1   ](instances/tspdl/KroA200_50_1.dat)  |  30665.20   |  Unpublished  |
+|[KroA200_75_1   ](instances/tspdl/KroA200_75_1.dat)  |  30896.10   |  Unpublished  |
+|[pcb442_50_1    ](instances/tspdl/pcb442_50_1.dat)  |  59858.30    |  Unpublished  |
+|[pcb442_75_1    ](instances/tspdl/pcb442_75_1.dat)  |  61010.10    |  Unpublished  |
+|[Ulysses_22_50_1 ](instances/tspdl/ulysses22_50_1.dat)  |  8425.60  |  8290   |
 
 __Note :__ Instances mirrored from [The TSPDL Lib](http://tspdl.jgr.no/).
 
 __Note 2:__ Best known solutions are presented in [Todosijević et al. (2017)](https://link.springer.com/article/10.1007/s11590-014-0788-9).
 
 __Note 3:__ A mathematical formulation of the problem can be found in [Rakke et al. (2012)](https://www.sciencedirect.com/science/article/pii/S0305048317300518).
+
+__Note 4:__ The _BKR (avg)_ column presents the average best known solution to the entire instance family (bayg29_10, KroA200_50, and so forth). When available, the BKS of individual instances are presented in column _BKS (instance)_.
 
 ### Access to ILOG CPLEX optimization suite
 

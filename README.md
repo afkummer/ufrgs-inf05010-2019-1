@@ -80,7 +80,7 @@ __Note 2:__ Best known solutions are presented in [Todosijević et al. (2017)](
 
 __Note 3:__ A mathematical formulation of the problem can be found in [Rakke et al. (2012)](https://www.sciencedirect.com/science/article/pii/S0305048317300518).
 
-__Note 4:__ The _BKS (avg)_ column presents the average best known solution to the entire instance family (bayg29_10, KroA200_50, and so forth). When available, the BKS of individual instances are presented in column _BKS (instance)_.
+__Note 4:__ The _BKS (avg)_ column presents the average best known solution to the entire instance family (bayg29_10, KroA200_50, and so forth). When available, the BKS of individual instances are presented in column _BKS (instance)_. Some individual results can also be found in [Battarra et al (2014)](https://www.sciencedirect.com/science/article/pii/S0377221713008655).
 
 ### Access to ILOG CPLEX optimization suite
 

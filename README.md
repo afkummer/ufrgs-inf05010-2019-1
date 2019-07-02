@@ -76,11 +76,11 @@ For ``KroA`` and ``pcb`` families, check the paper of [Reinelt (1991)](http://dx
 
 __Note :__ Instances mirrored from [The TSPDL Lib](http://tspdl.jgr.no/).
 
-__Note 2:__ Best known solutions are presented in [Todosijević et al. (2017)](https://link.springer.com/article/10.1007/s11590-014-0788-9).
+__Note 2:__ Best known solutions are presented in [Todosijević et al. (2017)](https://link.springer.com/article/10.1007/s11590-014-0788-9). (See observation 4 below.)
 
 __Note 3:__ A mathematical formulation of the problem can be found in [Rakke et al. (2012)](https://www.sciencedirect.com/science/article/pii/S0305048317300518).
 
-__Note 4:__ The _BKR (avg)_ column presents the average best known solution to the entire instance family (bayg29_10, KroA200_50, and so forth). When available, the BKS of individual instances are presented in column _BKS (instance)_.
+__Note 4:__ The _BKS (avg)_ column presents the average best known solution to the entire instance family (bayg29_10, KroA200_50, and so forth). When available, the BKS of individual instances are presented in column _BKS (instance)_.
 
 ### Access to ILOG CPLEX optimization suite
 

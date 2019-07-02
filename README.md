@@ -64,7 +64,7 @@ For ``KroA`` and ``pcb`` families, check the paper of [Reinelt (1991)](http://dx
 | Instance | BKS (avg) | BKS (instance)|
 |:---------|----------:|-----:|
 |[bayg29_10_1    ](instances/tspdl/bayg29_10_1.dat)  |  1713.60     |  1610    |
-|[bayg29_50_1    ](instances/tspdl/bayg29_50_1.dat)  |  2091.00     |  2743    |
+|[bayg29_50_1    ](instances/tspdl/bayg29_50_1.dat)  |  2091.00     |  2105    |
 |[gr17_25_1      ](instances/tspdl/gr17_25_1.dat)  |  2237.70       |  2265    |
 |[gr48_10_1      ](instances/tspdl/gr48_10_1.dat)  |  6635.70       |  5046    |
 |[gr48_25_1      ](instances/tspdl/gr48_25_1.dat)  |  5800.30       |  5161.65 |
